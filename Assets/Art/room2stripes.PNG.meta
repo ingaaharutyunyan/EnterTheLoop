@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 6a3898de19015b64ea3c361ff263b57a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 204104257008074410
+    second: room2stripes_0
+  - first:
+      213: 9048423203508861960
+    second: room2stripes_1
+  - first:
+      213: 3300232380318635748
+    second: room2stripes_2
+  - first:
+      213: 3599794155219481445
+    second: room2stripes_3
+  - first:
+      213: -1589797931049221579
+    second: room2stripes_4
+  - first:
+      213: 32715714270298908
+    second: room2stripes_5
+  - first:
+      213: -8094166829344524801
+    second: room2stripes_6
+  - first:
+      213: -4950397887417509665
+    second: room2stripes_7
+  - first:
+      213: -6339495615660052433
+    second: room2stripes_8
+  - first:
+      213: 1923240108090551757
+    second: room2stripes_9
+  - first:
+      213: -763530499137826656
+    second: room2stripes_10
+  - first:
+      213: 4016758946226438103
+    second: room2stripes_11
+  - first:
+      213: 4308506220967269835
+    second: room2stripes_12
+  - first:
+      213: 1316067962531585740
+    second: room2stripes_13
+  - first:
+      213: 6284523806915753444
+    second: room2stripes_14
+  - first:
+      213: 2972108132177102531
+    second: room2stripes_15
+  - first:
+      213: -8082206236923093385
+    second: room2stripes_16
+  - first:
+      213: 4028132876862514022
+    second: room2stripes_17
+  - first:
+      213: 3123123431895678312
+    second: room2stripes_18
+  - first:
+      213: 2999022094019743474
+    second: room2stripes_19
+  - first:
+      213: -668065117417941509
+    second: room2stripes_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: room2stripes_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 129
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae7c188dbf15d200800000000000000
+      internalID: 204104257008074410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 10
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c3c8686f4729d70800000000000000
+      internalID: 9048423203508861960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 129
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e652215dd7cccd20800000000000000
+      internalID: 3300232380318635748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 47
+        height: 1208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563726e26b905f130800000000000000
+      internalID: 3599794155219481445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 129
+        height: 1247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532092f6437efe9e0800000000000000
+      internalID: -1589797931049221579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 23
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1387afc4ca347000800000000000000
+      internalID: 32715714270298908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_6
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 129
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57b28472ebbaf80800000000000000
+      internalID: -8094166829344524801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_7
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 6
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd892a78957ac4bb0800000000000000
+      internalID: -4950397887417509665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2
+        width: 129
+        height: 1247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20bf6d53569508a0800000000000000
+      internalID: -6339495615660052433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_9
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 21
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd658440b8b0ba10800000000000000
+      internalID: 1923240108090551757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_10
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 129
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a096bf6e056765f0800000000000000
+      internalID: -763530499137826656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_11
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 4
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dff23adaf46eb730800000000000000
+      internalID: 4016758946226438103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_12
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 15
+        width: 129
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5905d9493eacb30800000000000000
+      internalID: 4308506220967269835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_13
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 34
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce97fec6dc934210800000000000000
+      internalID: 1316067962531585740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_14
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 0
+        width: 129
+        height: 1245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5f2b50b1d173750800000000000000
+      internalID: 6284523806915753444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_15
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 17
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6477c699c0f3920800000000000000
+      internalID: 2972108132177102531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_16
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 13
+        width: 129
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e90c6bf3c36df80800000000000000
+      internalID: -8082206236923093385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_17
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 32
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6636671728dc6e730800000000000000
+      internalID: 4028132876862514022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_18
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 0
+        width: 129
+        height: 1243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d37dbd630975b20800000000000000
+      internalID: 3123123431895678312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_19
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 15
+        width: 47
+        height: 1215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe489b74baae9920800000000000000
+      internalID: 2999022094019743474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: room2stripes_20
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 26
+        width: 127
+        height: 1225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf55975b05e8ab6f0800000000000000
+      internalID: -668065117417941509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      room2stripes_0: 204104257008074410
+      room2stripes_1: 9048423203508861960
+      room2stripes_10: -763530499137826656
+      room2stripes_11: 4016758946226438103
+      room2stripes_12: 4308506220967269835
+      room2stripes_13: 1316067962531585740
+      room2stripes_14: 6284523806915753444
+      room2stripes_15: 2972108132177102531
+      room2stripes_16: -8082206236923093385
+      room2stripes_17: 4028132876862514022
+      room2stripes_18: 3123123431895678312
+      room2stripes_19: 2999022094019743474
+      room2stripes_2: 3300232380318635748
+      room2stripes_20: -668065117417941509
+      room2stripes_3: 3599794155219481445
+      room2stripes_4: -1589797931049221579
+      room2stripes_5: 32715714270298908
+      room2stripes_6: -8094166829344524801
+      room2stripes_7: -4950397887417509665
+      room2stripes_8: -6339495615660052433
+      room2stripes_9: 1923240108090551757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
