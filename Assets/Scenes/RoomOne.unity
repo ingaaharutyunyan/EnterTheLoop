@@ -2002,6 +2002,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1868970520}
     m_Modifications:
+    - target: {fileID: 1190791346206874647, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190791346206874647, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680111055356870619, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680111055356870619, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
+      propertyPath: m_margin.x
+      value: 98.49295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680111055356870619, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
+      propertyPath: m_margin.y
+      value: 24.377295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680111055356870619, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7854618393463099183, guid: e69a8d182a5aacb42a627ed9db60b8b1, type: 3}
       propertyPath: m_Name
       value: Textbubble
@@ -2896,6 +2920,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4247469034393032654, guid: 033e112870f87784f9ed8ad790cd722c, type: 3}
   m_PrefabInstance: {fileID: 1868970518}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1868970521 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4736654145241013741, guid: 033e112870f87784f9ed8ad790cd722c, type: 3}
+  m_PrefabInstance: {fileID: 1868970518}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1868970522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2947,7 +2976,7 @@ MonoBehaviour:
   textboxes:
   - {fileID: 1439449073}
   speakingOrder: 010000000100000001000000
-  stopTalk: 03000000
+  stopTalk: 0200000003000000
   inputHandler: {fileID: 161591104}
 --- !u!61 &1868970524
 BoxCollider2D:
@@ -3026,6 +3055,7 @@ MonoBehaviour:
   wizardOpen: {fileID: 3470232134724611102, guid: c6dffe3593381e443a5c41419a8a75e1, type: 3}
   wizardClosed: {fileID: 3738575273082505949, guid: 9a41e0f7f7f2faa4f9e198d4dca62026, type: 3}
   playerSO: {fileID: 11400000, guid: 1b10ab408d19f7349a101e2b37ab81b8, type: 2}
+  spriteRenderer: {fileID: 1868970521}
 --- !u!114 &1868970528
 MonoBehaviour:
   m_ObjectHideFlags: 0

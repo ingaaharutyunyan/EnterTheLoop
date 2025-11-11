@@ -31,6 +31,13 @@ public class NPCTextSpeakingOrder : MonoBehaviour
         inputAction.Enable();
     }
 
+    public void AllowRepeat()
+    {
+        index = 0;
+        stopTalkIndex = 0;
+        foreach (NPCTextAnim t in textAnim) t.ResetIndex();
+    }
+
     public void StartTalking()
     {
         inputAction.Enable();

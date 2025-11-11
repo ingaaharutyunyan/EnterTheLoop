@@ -59,6 +59,15 @@ public class PlayerSO : ScriptableObject
         return flashlightActive;
     }
 
+    public bool HasAlmonds()
+    {
+        return almonds;
+    }
+    public void SetAlmonds(bool b)
+    {
+        almonds = b;
+    }
+    private bool almonds;
     public event Action<bool> SetPlayerMovementAllowed;
     public event Action SetDuckActive, SetScrewdriverActive, SetFlashlightActive;
     private bool duckActive, screwdriverActive, flashlightActive;

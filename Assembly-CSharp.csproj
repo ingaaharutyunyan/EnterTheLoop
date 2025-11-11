@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Hallway\InsideHallwayCheck.cs" />
     <Compile Include="Assets\Scripts\NPC\iNPC.cs" />
     <Compile Include="Assets\Scripts\Hallway\HallwayInit.cs" />
+    <Compile Include="Assets\Scripts\NPC\SpecificNPCs\Frog.cs" />
     <Compile Include="Assets\Scripts\NPC\SpecificNPCs\Wizard.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCText\NPCTextAnim.cs" />
     <Compile Include="Assets\Scripts\Hallway\RemoveObjects.cs" />

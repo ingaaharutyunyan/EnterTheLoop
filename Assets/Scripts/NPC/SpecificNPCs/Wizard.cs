@@ -7,7 +7,7 @@ public class Wizard : MonoBehaviour, iNPC
     [SerializeField] private Sprite wizardOpen, wizardClosed;
     [SerializeField] private PlayerSO playerSO;
     private NPCTextSpeakingOrder speakingOrder;
-    private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     private ItemsManager itemManager;
     private ItemGUID itemGUID;
     void OnEnable()
@@ -15,8 +15,6 @@ public class Wizard : MonoBehaviour, iNPC
         itemGUID = GetComponent<ItemGUID>();
         itemManager = GameManager.instance.GetItemsManager();
         speakingOrder.OnConversationOver += FinishInteraction;
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -30,7 +28,12 @@ public class Wizard : MonoBehaviour, iNPC
     }
     public void FinishInteraction(int x)
     {
-        itemManager.AddItem(itemGUID.GetGUID());
-        playerSO.EnableDuck();
+        if (x == 0 && playerSO.HasAlmonds()) speakingOrder.ExecuteNextLine();
+        else if (x == 0) speakingOrder.AllowRepeat();
+        else
+        {
+            itemManager.AddItem(itemGUID.GetGUID());
+            playerSO.EnableDuck();
+        }    
     }
 }

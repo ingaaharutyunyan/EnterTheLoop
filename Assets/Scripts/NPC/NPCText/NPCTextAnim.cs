@@ -53,4 +53,9 @@ public class NPCTextAnim : MonoBehaviour
     {
         speed = 0.000001f;
     }
+
+    public void ResetIndex()
+    {
+        index = 0;
+    }
 }
