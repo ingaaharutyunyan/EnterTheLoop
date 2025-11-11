@@ -799,7 +799,6 @@ Transform:
   - {fileID: 972634460}
   - {fileID: 877169982}
   - {fileID: 1083089175}
-  - {fileID: 822366115}
   - {fileID: 1835739718}
   - {fileID: 1419170214}
   - {fileID: 1286804207}
@@ -1012,6 +1011,7 @@ GameObject:
   - component: {fileID: 822366118}
   - component: {fileID: 822366119}
   - component: {fileID: 822366120}
+  - component: {fileID: 822366121}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -1083,12 +1083,12 @@ Transform:
   m_GameObject: {fileID: 822366113}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.9100475, y: 0.6774465, z: -2.0886092}
+  m_LocalPosition: {x: -0.38999987, y: -1.59, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1938454301}
-  m_Father: {fileID: 621517959}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &822366116
 MonoBehaviour:
@@ -1219,6 +1219,19 @@ MonoBehaviour:
   bounceHeight: 2
   fadeDuration: 0.3
   stayDuration: 1.5
+--- !u!114 &822366121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822366113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f2ad239747b3842ba59a932ec2e894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guid: 3
 --- !u!1 &877169980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,3 +2563,4 @@ SceneRoots:
   - {fileID: 1547494720}
   - {fileID: 723278439}
   - {fileID: 1826298604}
+  - {fileID: 822366115}

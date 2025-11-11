@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        itemsManager = new ItemsManager();
         ShowMenuScreen();
     }
 
@@ -58,6 +60,9 @@ public class GameManager : MonoBehaviour
 
     public void TryGameAgain()
     {
+        SetPlayerMovement(false);
+        ResetGame?.Invoke();
+        itemsManager.ResetItems();
         mainMenu.ShowScreen(0);
         StartGame();
     }
@@ -71,6 +76,8 @@ public class GameManager : MonoBehaviour
     public ScenesManager GetScenesManager() { return sm; }
     [SerializeField] private PlayerSO pSO;
     [SerializeField] private MainMenu mainMenu;
-
     [SerializeField] private ScenesManager sm;
+    private ItemsManager itemsManager;
+    public ItemsManager GetItemsManager() { return itemsManager; }
+    public static event Action ResetGame;
 }

@@ -240,7 +240,6 @@ Transform:
   - {fileID: 1921241091}
   - {fileID: 1406172545}
   - {fileID: 1578462547}
-  - {fileID: 1527309286}
   - {fileID: 2015046974}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -855,6 +854,7 @@ GameObject:
   - component: {fileID: 1527309287}
   - component: {fileID: 1527309288}
   - component: {fileID: 1527309289}
+  - component: {fileID: 1527309290}
   m_Layer: 0
   m_Name: Flashlight
   m_TagString: Untagged
@@ -871,12 +871,12 @@ Transform:
   m_GameObject: {fileID: 1527309285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5826297, y: -2.776909, z: -2.0802197}
+  m_LocalPosition: {x: -1.19, y: -2.88, z: 0}
   m_LocalScale: {x: 0.7655, y: 0.665, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 874058404}
-  m_Father: {fileID: 521292612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1527309287
 SpriteRenderer:
@@ -1010,6 +1010,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.457539, y: 2.4334743}
   m_EdgeRadius: 0
+--- !u!114 &1527309290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527309285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f2ad239747b3842ba59a932ec2e894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guid: 2
 --- !u!1 &1547494718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,3 +1714,4 @@ SceneRoots:
   - {fileID: 1547494720}
   - {fileID: 723278439}
   - {fileID: 1826298604}
+  - {fileID: 1527309286}

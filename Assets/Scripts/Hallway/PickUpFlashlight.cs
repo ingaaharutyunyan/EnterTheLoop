@@ -8,10 +8,15 @@ public class PickUpFlashlight : MonoBehaviour
     [SerializeField] private InputAction inputAction;
     [SerializeField] private SpriteRenderer buttonSpriteRenderer;
     [SerializeField] private PlayerSO pSO;
+    private ItemsManager itemManager;
+    private ItemGUID itemGUID;
 
     private void OnEnable()
     {
+        itemGUID = GetComponent<ItemGUID>();
+        itemManager = GameManager.instance.GetItemsManager();
         coll = GetComponent<BoxCollider2D>();
+        
         inputAction.performed += GetFlashlight;
     }
 
@@ -45,6 +50,7 @@ public class PickUpFlashlight : MonoBehaviour
 
     private void GetFlashlight(InputAction.CallbackContext context)
     {
+        itemManager.AddItem(itemGUID.GetGUID());
         pSO.EnableFlashlight();
         this.gameObject.SetActive(false);
     }
