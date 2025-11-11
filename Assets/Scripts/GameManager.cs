@@ -15,36 +15,30 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-    /*     storyManager = new StoryManager(x,y);
-        storyCount = storyManager.GetCounter();
-        subStoryCount = storyManager.GetSubCounter();
-        battleGUID = new BattleGUID(); */
-        //ShowMenuScreen();
-        StartGame();
+        ShowMenuScreen();
     }
 
     void ShowMenuScreen()
     {
         pSO.SetMovementAllowed(false);
-        winScreen.SetActive(false);
-        loseScreen.SetActive(false);
+        mainMenu.ShowScreen(0);
     }
 
     public void StartGame()
     {
-        menuScreen.SetActive(false);
+        mainMenu.ShowScreen(100);
         pSO.SetMovementAllowed(true);
     }
 
     public void WinGame()
     {
-        winScreen.SetActive(true);
+        mainMenu.ShowScreen(1);
         UnloadAllOtherScenes();
     }
 
     public void LoseGame()
     {
-        loseScreen.SetActive(true);
+        mainMenu.ShowScreen(2);
         UnloadAllOtherScenes();
     }
     private void UnloadAllOtherScenes()
@@ -64,14 +58,8 @@ public class GameManager : MonoBehaviour
 
     public void TryGameAgain()
     {
-        winScreen.SetActive(false);
-        loseScreen.SetActive(false);
+        mainMenu.ShowScreen(0);
         StartGame();
-    }
-
-    public void SceneFade()
-    {
-
     }
 
     public void SetPlayerMovement(bool b)
@@ -82,7 +70,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; }
     public ScenesManager GetScenesManager() { return sm; }
     [SerializeField] private PlayerSO pSO;
-    [SerializeField] private GameObject menuScreen, winScreen, loseScreen;
+    [SerializeField] private MainMenu mainMenu;
 
     [SerializeField] private ScenesManager sm;
 }
