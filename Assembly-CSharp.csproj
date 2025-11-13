@@ -59,7 +59,7 @@
     <UnityVersion>6000.0.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\inga.harutyunyan\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.3\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\harut\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.3\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Player\Movement\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Hallway\LoopHallway.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Inventory\StickNote.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Hallway\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCText\NPCTextBubble.cs" />
@@ -79,23 +80,27 @@
     <Compile Include="Assets\Scripts\Managers\ScenesManager.cs" />
     <Compile Include="Assets\Scripts\Hallway\GameAssetsManager.cs" />
     <Compile Include="Assets\Scripts\Managers\HallwaysManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\SafeCode.cs" />
+    <Compile Include="Assets\Scripts\Enemy\RoomEnemy.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCText\TriggerUnimportantDialogue.cs" />
     <Compile Include="Assets\Scripts\Hallway\InsideHallwayCheck.cs" />
     <Compile Include="Assets\Scripts\NPC\iNPC.cs" />
     <Compile Include="Assets\Scripts\Hallway\HallwayInit.cs" />
-    <Compile Include="Assets\Scripts\NPC\SpecificNPCs\Frog.cs" />
     <Compile Include="Assets\Scripts\NPC\SpecificNPCs\Wizard.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCText\NPCTextAnim.cs" />
     <Compile Include="Assets\Scripts\Hallway\RemoveObjects.cs" />
     <Compile Include="Assets\Scripts\Managers\PersistenceManager.cs" />
+    <Compile Include="Assets\Scripts\Enemy\FightBackEnemy.cs" />
     <Compile Include="Assets\Scripts\Player\Movement\PlayerInputHandler.cs" />
     <Compile Include="Assets\Scripts\Hallway\PickUpFlashlight.cs" />
     <Compile Include="Assets\Scripts\Player\Movement\PlayerMovementState.cs" />
     <Compile Include="Assets\Scripts\UI\Notif.cs" />
+    <Compile Include="Assets\Scripts\Inventory\MeatPlant.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCText\TriggerImportantDialogue.cs" />
     <Compile Include="Assets\Scripts\VFX\LampFlicker.cs" />
     <Compile Include="Assets\Scripts\Player\Movement\State.cs" />
     <Compile Include="Assets\Scripts\Managers\ItemsManager.cs" />
+    <Compile Include="Assets\Scripts\UI\SafeStickyNotes.cs" />
     <Compile Include="Assets\Scripts\Hallway\ItemGUID.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\Hallway\Safe.cs" />

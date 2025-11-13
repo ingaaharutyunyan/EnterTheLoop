@@ -17,7 +17,9 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
         itemsManager = new ItemsManager();
+        safeCode = new SafeCode();
         ShowMenuScreen();
+        safeStickyNotes.SetupCode(safeCode.GetCode());
     }
 
     void ShowMenuScreen()
@@ -30,41 +32,26 @@ public class GameManager : MonoBehaviour
     {
         mainMenu.ShowScreen(100);
         pSO.SetMovementAllowed(true);
+        sm.AddSomeScene(1);
     }
 
     public void WinGame()
     {
         mainMenu.ShowScreen(1);
-        UnloadAllOtherScenes();
+        sm.UnloadScene(1);
     }
 
     public void LoseGame()
     {
         mainMenu.ShowScreen(2);
-        UnloadAllOtherScenes();
-    }
-    private void UnloadAllOtherScenes()
-    {
-        Scene currentScene = SceneManager.GetActiveScene();
-
-        for (int i = 0; i < SceneManager.sceneCount; i++)
-        {
-            Scene loadedScene = SceneManager.GetSceneAt(i);
-
-            if (loadedScene.isLoaded && loadedScene != currentScene)
-            {
-                SceneManager.UnloadSceneAsync(loadedScene);
-            }
-        }
+        sm.UnloadScene(1);
     }
 
     public void TryGameAgain()
     {
-        SetPlayerMovement(false);
         ResetGame?.Invoke();
         itemsManager.ResetItems();
-        mainMenu.ShowScreen(0);
-        StartGame();
+        ShowMenuScreen();
     }
 
     public void SetPlayerMovement(bool b)
@@ -80,4 +67,8 @@ public class GameManager : MonoBehaviour
     private ItemsManager itemsManager;
     public ItemsManager GetItemsManager() { return itemsManager; }
     public static event Action ResetGame;
+    private SafeCode safeCode;
+    public SafeCode GetSafeCode() { return safeCode; }
+    [SerializeField] private SafeStickyNotes safeStickyNotes;
+    public SafeStickyNotes GetSafeStickyNotes() { return safeStickyNotes; }
 }

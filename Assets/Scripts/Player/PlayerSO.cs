@@ -59,15 +59,15 @@ public class PlayerSO : ScriptableObject
         return flashlightActive;
     }
 
-    public bool HasAlmonds()
+    public bool HasMeat()
     {
-        return almonds;
+        return hasMeat;
     }
-    public void SetAlmonds(bool b)
+    public void SetHasMeat(bool b)
     {
-        almonds = b;
+        hasMeat = b;
     }
-    private bool almonds;
+    private bool hasMeat;
     public event Action<bool> SetPlayerMovementAllowed;
     public event Action SetDuckActive, SetScrewdriverActive, SetFlashlightActive;
     private bool duckActive, screwdriverActive, flashlightActive;

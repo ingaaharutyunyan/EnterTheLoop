@@ -17,12 +17,15 @@ public class Safe : MonoBehaviour
     [SerializeField] private Notif notif;
 
     private string currentInput = "";
-    private string correctCode = "2963";
+    private string correctCode;
 
     void Start()
     {
         keypad.SetActive(false);
         ResetKeypad();
+        int[] codeArray = GameManager.instance.GetSafeCode().GetCode();
+        correctCode = string.Join("", codeArray);
+
     }
 
     void Update()
