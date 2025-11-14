@@ -467,7 +467,7 @@ SpriteRenderer:
   m_SortingLayerID: 1229906097
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3609826093060800238, guid: 4d16b853028c7e64e9ab11a2185071ca, type: 3}
+  m_Sprite: {fileID: -8433463626102659792, guid: 71c71990cabc32d48a155aa86c0e4cdb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3075,10 +3075,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7126046456458606069, guid: 6ddb5edd3581a3f4ca935f6b6ccb6a94, type: 3}
-      propertyPath: spotLight
-      value: 
-      objectReference: {fileID: 2049252608}
     - target: {fileID: 7126046456458606069, guid: 6ddb5edd3581a3f4ca935f6b6ccb6a94, type: 3}
       propertyPath: 'spotLight.Array.data[0]'
       value: 

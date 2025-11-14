@@ -2,6 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 using System;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,8 +19,18 @@ public class GameManager : MonoBehaviour
         }
         itemsManager = new ItemsManager();
         safeCode = new SafeCode();
+        mEaterManager = new MeatEaterManager(timerClass);
         ShowMenuScreen();
         safeStickyNotes.SetupCode(safeCode.GetCode());
+    }
+
+    public IEnumerator TimerRoutine()
+    {
+        while (true)
+        {
+            mEaterManager.SetTimer(Time.deltaTime);
+            yield return null;
+        }
     }
 
     void ShowMenuScreen()
@@ -30,6 +41,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        StartCoroutine(TimerRoutine());
         mainMenu.ShowScreen(100);
         pSO.SetMovementAllowed(true);
         sm.AddSomeScene(1);
@@ -64,6 +76,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PlayerSO pSO;
     [SerializeField] private MainMenu mainMenu;
     [SerializeField] private ScenesManager sm;
+    [SerializeField] private Timer timerClass;
     private ItemsManager itemsManager;
     public ItemsManager GetItemsManager() { return itemsManager; }
     public static event Action ResetGame;
@@ -71,4 +84,6 @@ public class GameManager : MonoBehaviour
     public SafeCode GetSafeCode() { return safeCode; }
     [SerializeField] private SafeStickyNotes safeStickyNotes;
     public SafeStickyNotes GetSafeStickyNotes() { return safeStickyNotes; }
+    private MeatEaterManager mEaterManager;
+    public MeatEaterManager GetMeatEaterManager() { return mEaterManager; }
 }

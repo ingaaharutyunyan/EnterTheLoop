@@ -3,6 +3,10 @@ using System.Collections.Generic;
 public class ItemsManager
 {
     private List<int> items;
+    public ItemsManager()
+    {
+        items = new List<int>();
+    }
 
     public bool IsItemAltered(int x)
     {

@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86123db25ce6e0543a39e611efa371d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spotLight: {fileID: 0}
+  spotLight:
+  - {fileID: 0}
   buttonPrompt: {fileID: 5534802333904845693}
   enemyObject: {fileID: 2292350415059768412}
 --- !u!114 &3351159158481858983
@@ -107,8 +108,8 @@ Transform:
   m_GameObject: {fileID: 2292350415059768412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7866533, y: 1.610561, z: -0.028972423}
-  m_LocalScale: {x: 3.8421, y: 3.6942, z: 1}
+  m_LocalPosition: {x: 3.7866533, y: 1.08, z: -0.028972423}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5316988830549036790}
@@ -157,8 +158,8 @@ SpriteRenderer:
   m_SortingLayerID: 1229906097
   m_SortingLayer: 1
   m_SortingOrder: 100
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -5825439816207405709, guid: 366b6ec230a03bc498d83f7dce8bb654, type: 3}
+  m_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -244,7 +245,7 @@ SpriteRenderer:
   m_SortingLayerID: 1229906097
   m_SortingLayer: 1
   m_SortingOrder: 100
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 6474755262094597366, guid: fccb3f2a1b724f84e94ebc2484f6032d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
