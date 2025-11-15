@@ -29,10 +29,8 @@ public class FightBackEnemy : MonoBehaviour
 
     private void FightBack(InputAction.CallbackContext context)
     {
-        if (clickedButton >= 20)
-        {
-            buttonPrompt.gameObject.SetActive(false);
-            roomEnemy.DefeatEnemy();
+        if (clickedButton >= 5)
+        {   roomEnemy.DefeatEnemy();
             return;
         }
 

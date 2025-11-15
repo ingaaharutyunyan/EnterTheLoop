@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 66fb5d8fdcf015e4b85e6b48cab2beee
+guid: c216b972411da084ca976168ee386ba7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2341823480259052919
-    second: MeatFLower_0
+      213: 4852008958931065466
+    second: numbers2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MeatFLower_0
+      name: numbers2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 132
-        height: 367
+        x: 44
+        y: 158
+        width: 1182
+        height: 1630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98a7d74c3fb208fd0800000000000000
-      internalID: -2341823480259052919
+      spriteID: a7a591ce07cc55340800000000000000
+      internalID: 4852008958931065466
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MeatFLower_0: -2341823480259052919
+      numbers2_0: 4852008958931065466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

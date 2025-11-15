@@ -15,4 +15,14 @@ public class MainMenu : MonoBehaviour
         }
     }
 
+    public void OnInstructionClicked()
+    {
+        ShowScreen(3);
+    }
+
+    public void OnBackClicked()
+    {
+        ShowScreen(0);
+    }
+
 }

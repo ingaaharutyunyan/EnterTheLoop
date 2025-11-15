@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b703da728bcfbe240ab9d117da81d98a
+guid: 8bb09b5bca6ace146a6373ab252404a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7529355851000164845
-    second: IMG_2234_0
+      213: -4381693984270815106
+    second: Instructions_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2234_0
+      name: Instructions_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1194
-        height: 661
+        width: 363
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de1bf561145ad7860800000000000000
-      internalID: 7529355851000164845
+      spriteID: e70721959881133c0800000000000000
+      internalID: -4381693984270815106
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2234_0: 7529355851000164845
+      Instructions_0: -4381693984270815106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

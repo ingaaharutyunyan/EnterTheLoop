@@ -6,11 +6,20 @@ public class StickNote : MonoBehaviour
     [SerializeField] private int noteIndex;
     [SerializeField] private GameObject buttonPrompt;
     [SerializeField] private InputAction inputAction;
+    [SerializeField] private ItemGUID itemGUID;
+    private ItemsManager itemManager;
 
     void OnEnable()
     {
+        int chance = Random.Range(0, 100);
+        if (chance < 50)
+        {
+            this.gameObject.SetActive(false);
+            return;
+        }
         inputAction.performed += ShowNote;
         buttonPrompt.SetActive(false);
+        itemManager = GameManager.instance.GetItemsManager();
     }
 
     void OnDisable()
@@ -38,6 +47,8 @@ public class StickNote : MonoBehaviour
 
     public void ShowNote(InputAction.CallbackContext context)
     {
+        itemManager.AddItem(itemGUID.GetGUID());
         GameManager.instance.GetSafeStickyNotes().ShowNotes(noteIndex);
+        this.gameObject.SetActive(false);
     }
 }

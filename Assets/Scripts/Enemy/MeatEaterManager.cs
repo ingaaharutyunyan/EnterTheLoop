@@ -19,7 +19,8 @@ public class MeatEaterManager
         TimerChanged?.Invoke(timer);
         if (timer >= 60f)
         {
-            OnBeastInvoked?.Invoke();
+            AddBeast();
+            return;
         }
     }
     public void ResetTimer()
@@ -29,9 +30,16 @@ public class MeatEaterManager
 
     public void AddBeast()
     {
+        if (beastInvoked) return;
         OnBeastInvoked?.Invoke();
+        beastInvoked = true;
     }
 
+    public bool InvokedBeast()
+    {
+        return beastInvoked;
+    }
+    private bool beastInvoked = false;
     public event Action<float> TimerChanged;
     public event Action OnBeastInvoked;
 }

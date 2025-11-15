@@ -11,12 +11,6 @@ public class PlayerManager : MonoBehaviour
     {
         currentState = new IdleState(rb);
     }
-
-    void Start()
-    {
-        inputHandler.SetPlayerMovement(true);
-    }
-
     void FixedUpdate()
     {
         // Handle Movement State

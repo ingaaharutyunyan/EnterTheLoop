@@ -1,4 +1,5 @@
 using UnityEngine;
+using Persistence;
 
 public class HallwaysManager : MonoBehaviour
 {
@@ -7,9 +8,9 @@ public class HallwaysManager : MonoBehaviour
 
     void Start()
     {
+        // Set player X position
         Vector3 pos = player.transform.position;
         pos.x = pSO.GetXPosition();
         player.transform.position = pos;
-        Debug.Log("Position has been set as " + pos);
     }
 }

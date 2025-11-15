@@ -12,6 +12,7 @@ public class DoorOpen : MonoBehaviour
     [SerializeField] private PlayerSO pSO;
     [SerializeField] private Transform player;
     [SerializeField] private bool inHallway;
+    [SerializeField] private HallwayInit[] hInit;
 
     private BoxCollider2D doorCollider;
     private bool playerInRange = false;
@@ -63,12 +64,12 @@ public class DoorOpen : MonoBehaviour
     private IEnumerator OpenDoorCoroutine()
     {
         spriteRenderer.enabled = false;
-        if (inHallway) pSO.SetXPosition(player);
-        // Uncomment if you have a screen fade effect
-        // gameManager.StartScreenFade();
-
+        if (inHallway)
+        {
+            pSO.SetXPosition(player);
+            if (hInit != null) foreach (HallwayInit h in hInit) h.SaveData();
+        }
         yield return new WaitForSeconds(0.6f);
-
         GameManager.instance.GetScenesManager().UnloadAndAdd(sceneToUnload, sceneToLoad);
     }
 }

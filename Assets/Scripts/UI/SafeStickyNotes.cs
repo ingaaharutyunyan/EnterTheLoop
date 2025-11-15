@@ -25,4 +25,9 @@ public class SafeStickyNotes : MonoBehaviour
     {
         noteTexts[x].gameObject.SetActive(true);
     }
+
+    public void HideAllNotes()
+    {
+        foreach (GameObject n in noteTexts) n.SetActive(false);
+    }
 }
